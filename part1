@@ -1,0 +1,35 @@
+Quiz 1-1: Back Propagation (20%)
+
+
+Quiz 1-2: Common Senses (30%)
+Q: When will we use F1-score instead of precision(accuracy)?
+A: When the false negative is important to us.
+
+Q: Why don’t we use binary classification function as the activation function in neural networks?
+A: When x>0, the slope of the activation function is always 0. it make NN not possible to coverage.
+
+
+Q: What is the bias and variance of a machine learning algorithm?
+A: Let's say the function we come up with from a machine learning algorithm is f* and the true function that represent the model is f_
+the basis is the distance between expectation E(f*) and f_, the variance is the distance between expectation E(f*) and f*.
+
+Q: When training a single tree in random forest, we don’t prune the tree, why?
+A: Because random forest is an ensemble learning method. so it improves the accuary by combining differents weak classifer. If there is only a single tree, pruning only make the accuary worse.A
+
+
+Q: What is one-hot encoding?
+A: it can covert categorical variables to a group of bits. 
+like when there is 3 categorical variables(a,b,c) in one column, a sample with only include "a" category, it will be tranformed to 1,0,0
+
+only include "b" category, it come out 0,1,0
+only include "c" category, it come out 0,0,1
+include "b", "c" category, it come out 0,1,1
+
+
+Q:How to prevent overfitting in neural networks? (write down anything you know)
+A: early stop, regularation, dropout
+
+
+
+
+
